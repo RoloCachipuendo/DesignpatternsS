@@ -14,7 +14,7 @@ const trace = (x) => (y) => console.log(x, y);
 const filter = (f) => (xs) => xs.filter(f);
 
 const firstInfante = (data) => data[0];
-
+ 
 const formating = (data) => {
   console.log(data);
   return {
